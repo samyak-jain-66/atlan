@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import flipkart from "../../assets/flipkart.svg";
 import amazon from "../../assets/amazon.svg";
 import uber from "../../assets/uber.svg";
@@ -13,9 +13,14 @@ import sharechat from "../../assets/share-chat.svg";
 
 const Millions = () => {
   return (
-    <div className="flex flex-col gap-2 items-center justify-center">
-      <h2 className="text-[45px] text-center text-[#121212] antialiased font-semibold">
-        Millions Runs on Acme on every day
+    <div
+      className="flex flex-col gap-2 items-center justify-center"
+      data-aos="slide-right"
+      data-aos-duration="100"
+      data-aos-easing="ease-in-out"
+    >
+      <h2 className="text-[45px] text-center text-[#121212] antialiased font-bold">
+        Millions Runs on Notes every day
       </h2>
       <div className="max-w-[490px] text-center mx-auto">
         <h6 className="text-[16px] text-[#121212] antialiased">
