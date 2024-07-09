@@ -6,9 +6,8 @@ function Pricing({ pricingRef }) {
       className="pt-28 pb-20"
       ref={pricingRef}
       data-aos="zoom-in"
-      data-aos-duration="500"
+      data-aos-duration="2000"
       data-aos-easing="ease-in-out"
-      data-aos-delay="800"
     >
       <div className="w-[80%] m-auto text-center">
         <h1 className="text-[45px] text-[#121212] antialiased font-semibold">

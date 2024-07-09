@@ -16,7 +16,7 @@ const Millions = () => {
     <div
       className="flex flex-col gap-2 items-center justify-center"
       data-aos="slide-right"
-      data-aos-duration="100"
+      data-aos-duration="600"
       data-aos-easing="ease-in-out"
     >
       <h2 className="text-[45px] text-center text-[#121212] antialiased font-bold">

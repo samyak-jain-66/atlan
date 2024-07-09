@@ -5,8 +5,8 @@ const Vision = () => {
   return (
     <div
       className="bg-[#f6f5f4] px-60 py-16 flex justify-between"
-      data-aos="fade-left"
-      data-aos-duration="300"
+      data-aos="fade-up"
+      data-aos-duration="1000"
       data-aos-easing="ease-in-out"
     >
       <div>

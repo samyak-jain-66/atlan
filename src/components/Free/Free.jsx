@@ -4,9 +4,10 @@ import free from "../../assets/free.jpg";
 const Free = ({ freeRef }) => {
   return (
     <div
-      data-aos="flip-right"
-      data-aos-duration="1200"
+      data-aos="slide-right"
+      data-aos-duration="1500"
       data-aos-easing="ease-in-out"
+      data-aos-delay="300"
       ref={freeRef}
     >
       <h2 className="text-[61px] text-center text-[#121212] antialiased font-bold pt-10">

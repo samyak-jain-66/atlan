@@ -9,6 +9,7 @@ import Hero from "./components/Hero/Hero";
 import Vision from "./components/Vision/Vision";
 import Features from "./components/Features/Features";
 import Pricing from "./components/Pricing/Pricing";
+import Testimonials from "./components/Testimonial/Testimonial";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -17,6 +18,7 @@ function App() {
   const pricingRef = useRef(null);
   const freeRef = useRef(null);
   const featureRef = useRef(null);
+  const testimonialRef = useRef(null);
 
   const handleScroll = (e) => {
     if (!isScroll) setIsScroll(true);
@@ -40,6 +42,7 @@ function App() {
         pricingRef={pricingRef}
         freeRef={freeRef}
         featureRef={featureRef}
+        testimonialRef={testimonialRef}
       />
       <Hero />
       <div className="mt-20">
@@ -53,6 +56,9 @@ function App() {
       </div>
       <div className="mt-10">
         <Movement />
+      </div>
+      <div className="mt-20">
+        <Testimonials testimonialRef={testimonialRef} />
       </div>
       <Pricing pricingRef={pricingRef} />
       <Free freeRef={freeRef} />

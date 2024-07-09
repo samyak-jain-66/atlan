@@ -1,6 +1,12 @@
 import React from "react";
 
-const Header = ({ isScroll, pricingRef, freeRef, featureRef }) => {
+const Header = ({
+  isScroll,
+  pricingRef,
+  freeRef,
+  featureRef,
+  testimonialRef,
+}) => {
   const pricingScroll = () => {
     if (pricingRef && pricingRef.current) {
       pricingRef.current.scrollIntoView({ behavior: "smooth" });
@@ -16,6 +22,12 @@ const Header = ({ isScroll, pricingRef, freeRef, featureRef }) => {
       featureRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const testimonialScroll = () => {
+    if (testimonialRef && testimonialRef.current) {
+      testimonialRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div
       className={`flex items-center justify-between px-6 py-4 fixed bg-[#fff] w-full z-20 ${
@@ -34,7 +46,10 @@ const Header = ({ isScroll, pricingRef, freeRef, featureRef }) => {
         >
           Features
         </h6>
-        <h6 className="text-[16px] text-center text-[#050505] antialiased font-normal hover:bg-[#121212] hover:text-[#fff] hover:cursor-pointer rounded-md px-2 py-1 transition duration-500 ease-in-out">
+        <h6
+          className="text-[16px] text-center text-[#050505] antialiased font-normal hover:bg-[#121212] hover:text-[#fff] hover:cursor-pointer rounded-md px-2 py-1 transition duration-500 ease-in-out"
+          onClick={() => testimonialScroll()}
+        >
           Testimonials
         </h6>
         <h6
