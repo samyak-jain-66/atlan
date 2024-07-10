@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import flipkart from "../../assets/flipkart.svg";
 import amazon from "../../assets/amazon.svg";
 import uber from "../../assets/uber.svg";
