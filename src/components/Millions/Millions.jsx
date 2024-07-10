@@ -31,33 +31,34 @@ const Millions = () => {
       <div className="max-w-[720px] flex items-center justify-center gap-6 mt-8 flex-wrap">
         <img
           src={flipkart}
-          className="max-w-[89px] max-h-[55px] object-contain"
+          className="max-w-[89px] max-h-[55px] object-contain" alt="flipkart"
         />
         <img
           src={amazon}
-          className="max-w-[89px] max-h-[55px] object-contain mt-3"
+          className="max-w-[89px] max-h-[55px] object-contain mt-3" alt="amazon"
         />
-        <img src={uber} className="max-w-[89px] max-h-[55px] object-contain" />
+        <img src={uber} className="max-w-[89px] max-h-[55px] object-contain" alt="uber"/>
         <img
           src={hyundai}
-          className="max-w-[89px] max-h-[55px] object-contain"
+          className="max-w-[89px] max-h-[55px] object-contain" alt="hyundai"
         />
         <img
           src={netflix}
           className="max-w-[89px] max-h-[55px] object-contain"
+          alt="netflix"
         />
-        <img src={nike} className="max-w-[89px] max-h-[55px] object-contain" />
-        <img src={paytm} className="max-w-[89px] max-h-[55px] object-contain" />
-        <img src={tesla} className="max-w-[89px] max-h-[55px] object-contain" />
+        <img src={nike} className="max-w-[89px] max-h-[55px] object-contain" alt="nike"/>
+        <img src={paytm} className="max-w-[89px] max-h-[55px] object-contain" alt="paytm"/>
+        <img src={tesla} className="max-w-[89px] max-h-[55px] object-contain" alt="tesla"/>
         <img
           src={phonepe}
-          className="max-w-[130px] max-h-[130px] object-contain"
+          className="max-w-[130px] max-h-[130px] object-contain" alt="phonepe"
         />
         <img
           src={sharechat}
-          className="max-w-[110px] max-h-[100px] object-contain"
+          className="max-w-[110px] max-h-[100px] object-contain" alt="sharechat"
         />
-        <img src={ola} className="max-w-[89px] max-h-[55px] object-contain" />
+        <img src={ola} className="max-w-[89px] max-h-[55px] object-contain" alt="ola"/>
       </div>
     </div>
   );

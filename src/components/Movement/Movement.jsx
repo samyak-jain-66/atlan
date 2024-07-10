@@ -17,7 +17,7 @@ const Movement = () => {
       </div>
       <div className="flex items-center justify-center gap-10 mt-10">
         <div className="px-8 py-6 bg-[#f6f5f4] rounded-xl w-[280px] border-[2px] border-[#f6f5f4]">
-          <h2 className="text-[#0A85D1] antialiased text-[53px] font-bold">
+          <h2 className="text-[#0057A8] antialiased text-[53px] font-bold">
             5M+
           </h2>
           <h6 className="text-[16px] text-[#121212] antialiased">
@@ -25,7 +25,7 @@ const Movement = () => {
           </h6>
         </div>
         <div className="px-8 py-6 bg-[#f6f5f4] rounded-xl w-[280px] border-[2px] border-[#f6f5f4]">
-          <h2 className="text-[#0A85D1] antialiased text-[53px] font-bold">
+          <h2 className="text-[#0057A8] antialiased text-[53px] font-bold">
             5M+
           </h2>
           <h6 className="text-[16px] text-[#121212] antialiased">
@@ -33,7 +33,7 @@ const Movement = () => {
           </h6>
         </div>
         <div className="px-8 py-6 bg-[#f6f5f4] rounded-xl w-[280px]  border-[2px] border-[#f6f5f4]">
-          <h2 className="text-[#0A85D1] antialiased text-[53px] font-bold">
+          <h2 className="text-[#0057A8] antialiased text-[53px] font-bold">
             5M+
           </h2>
           <h6 className="text-[16px] text-[#121212] antialiased">
@@ -49,11 +49,11 @@ const Movement = () => {
           <h6 className="text-[#121212] antialiased text-[16px]">
             Swap setups and share tips in over 149 online communities.
           </h6>
-          <button className="bg-[#0083fa] text-[#fff] py-[6px] px-4 rounded-md hover:opacity-85 mt-6 transition duration-500 ease-in-out hover:scale-125">
+          <button className="bg-[#0057A8] text-[#fff] py-[6px] px-4 rounded-md hover:opacity-85 mt-6 transition duration-500 ease-in-out hover:scale-125">
             Get Started
           </button>
           <div className="mt-14">
-            <img src={left} className="rounded-xl" />
+            <img src={left} className="rounded-xl" alt="multiple_languages"/>
           </div>
         </div>
         <div className="pl-8 pt-6 bg-[#f6f5f4] rounded-xl w-[433px] h-[515px] border-[2px] border-[#f6f5f4]">
@@ -63,11 +63,11 @@ const Movement = () => {
           <h6 className="text-[#121212] antialiased text-[16px]">
             Swap setups and share tips in over 149 online communities.
           </h6>
-          <button className="bg-[#0083fa] text-[#fff] py-[6px] px-4 rounded-md hover:opacity-85 mt-5 transition duration-500 ease-in-out hover:scale-125">
+          <button className="bg-[#0057A8] text-[#fff] py-[6px] px-4 rounded-md hover:opacity-85 mt-5 transition duration-500 ease-in-out hover:scale-125">
             Get Started
           </button>
           <div className="mt-12">
-            <img src={right} className="rounded-xl" />
+            <img src={right} className="rounded-xl" alt="support"/>
           </div>
         </div>
       </div>

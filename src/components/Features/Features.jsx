@@ -11,7 +11,7 @@ const Features = ({ featureRef }) => {
       ref={featureRef}
     >
       <div className="flex flex-col justify-center">
-        <h2 className="text-[16px] text-[#0A85D1] antialiased font-bold underline">
+        <h2 className="text-[16px] text-[#0057A8] antialiased font-bold underline">
           Our Features
         </h2>
         <h4 className="text-[26px] text-[#121212] antialiased mt-4 font-bold">
@@ -27,12 +27,12 @@ const Features = ({ featureRef }) => {
             <li>Access from anywhere</li>
           </ul>
         </div>
-        <button className="bg-[#0083fa] text-[#fff] py-[6px] px-4 rounded-md hover:opacity-85 mt-14 max-w-[120px] transition duration-500 ease-in-out hover:scale-125">
+        <button className="bg-[#0057A8] text-[#fff] py-[6px] px-4 rounded-md hover:opacity-85 mt-14 max-w-[120px] transition duration-500 ease-in-out hover:scale-125">
           Get Started
         </button>
       </div>
       <div>
-        <img src={feature} className="w-[500px] h-[580px]" />
+        <img src={feature} className="w-[500px] h-[580px]" alt="feature"/>
       </div>
     </div>
   );

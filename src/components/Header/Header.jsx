@@ -48,9 +48,9 @@ const Header = ({
         </h6>
         <h6
           className="text-[16px] text-center text-[#050505] antialiased font-normal hover:bg-[#121212] hover:text-[#fff] hover:cursor-pointer rounded-md px-2 py-1 transition duration-500 ease-in-out"
-          onClick={() => testimonialScroll()}
+          onClick={() => freeScroll()}
         >
-          Testimonials
+          Join Us
         </h6>
         <h6
           className="text-[16px] text-center text-[#050505] antialiased font-normal hover:bg-[#121212] hover:text-[#fff] hover:cursor-pointer rounded-md px-2 py-1 transition duration-500 ease-in-out"
@@ -60,9 +60,9 @@ const Header = ({
         </h6>
         <h6
           className="text-[16px] text-center text-[#050505] antialiased font-normal hover:bg-[#121212] hover:text-[#fff] hover:cursor-pointer rounded-md px-2 py-1 transition duration-500 ease-in-out"
-          onClick={() => freeScroll()}
+          onClick={() => testimonialScroll()}
         >
-          Join Us
+          Testimonials
         </h6>
       </div>
       <div className="flex items-center justify-center gap-3">

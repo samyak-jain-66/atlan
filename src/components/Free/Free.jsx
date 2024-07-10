@@ -22,12 +22,12 @@ const Free = ({ freeRef }) => {
         <button className="bg-[#121212] text-[#fff] py-2 px-6 rounded-md hover:opacity-85 transition duration-500 ease-in-out hover:scale-125">
           Try Free
         </button>
-        <a href="http://www.google.com" className="text-[#007bff] underline">
+        <a href="http://www.google.com" className="text-[#0057A8] underline">
           Request Product Demo
         </a>
       </div>
       <div className="mt-10 flex items-center justify-center">
-        <img src={free} className="w-[950px] h-[400px]" />
+        <img src={free} className="w-[950px] h-[400px]" alt="free" />
       </div>
     </div>
   );
