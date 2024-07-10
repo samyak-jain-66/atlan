@@ -20,7 +20,7 @@ function Pricing({ pricingRef }) {
           Customize your subscription for a seamless fit!
         </p>
       </div>
-      <div className="w-[80%] m-auto mt-[4rem] flex md:flex-row flex-col gap-10 justify-center items-center">
+      <div className="w-[80%] m-auto mt-[4rem] flex lg:flex-row flex-col gap-10 justify-center items-center">
         <Card />
         <Card />
         <Card />
