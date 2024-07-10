@@ -9,7 +9,7 @@ const Free = ({ freeRef }) => {
       data-aos-delay="300"
       ref={freeRef}
     >
-      <h2 className="md:text-[1.75rem] text-[1.5rem] text-center text-[#121212] antialiased font-bold pt-10">
+      <h2 className="md:text-[2.75rem] text-[1.5rem] text-center text-[#121212] antialiased font-bold pt-10">
         Get Started for free
       </h2>
       <div className="max-w-[30.5rem] text-center mx-auto">
