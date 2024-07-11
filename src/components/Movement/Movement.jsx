@@ -1,8 +1,12 @@
+import React from "react";
 import right from "../../assets/right.png";
 import left from "../../assets/left.jpg";
-import Community from "../../common/Community/Community";
-import MovementCard from "../../common/MovementCard/MovementCard";
 import { communityData } from "../../utils/Static";
+
+const MovementCard = React.lazy(() =>
+  import("../../common/MovementCard/MovementCard")
+);
+const Community = React.lazy(() => import("../../common/Community/Community"));
 
 const Movement = () => {
   return (
